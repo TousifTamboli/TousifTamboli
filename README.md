@@ -9,7 +9,7 @@
 
 - 🌱 I’m currently learning **Node.js**
 
-- 👨‍💻 All of my projects are available at [https://tousiftamboli.online/](https://tousiftamboli.online/)
+- 👨‍💻 All of my projects are available at [https://tousif.vercel.app/](https://tousif.vercel.app/)
 
 - 📫 How to reach me **tousiftamboli3@gmail.com**
 
