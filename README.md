@@ -3,7 +3,7 @@
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=tousiftamboli&label=Profile%20views&color=0e75b6&style=flat" alt="tousiftamboli" /> </p>
 
 ## 🚀 About Me 
-🎓 I’m a Second Year Student pursuing B.Tech. at GHRCEM in Computer Science Engineering (Data Science) (2026).</br>
+🎓 I’m a Third Year Student pursuing B.Tech. at GHRCEM in Computer Science Engineering (Data Science) (2026).</br>
 👨‍💻 I am passionate about Data Science and Development<br>
 🌱 I’m currently Working on Data Structures and Algorithms and Client Projects.<br>
 🙋‍♂️ You can connect with me on -
