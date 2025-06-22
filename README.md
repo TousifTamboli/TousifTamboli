@@ -6,7 +6,7 @@
 🎓 I’m a Fourth Year Student pursuing B.Tech. at GHRCEM in Computer Science Engineering (Data Science) (2026).</br>
 👨‍💻 I am passionate about Data Science and Development<br>
 🌱 I’m currently Working on Data Structures and Algorithms and Client Projects.<br>
-🙋‍♂️ You can connect with me on -
+🙋‍♂️ You can connect with me on
 
 
 [![Twitter Badge](https://img.shields.io/badge/-TousifTamboli-blue?style=flat-square&logo=Twitter&logoColor=white&link=https://www.linkedin.com/in/kaiwalyakoparkar/)](https://x.com/T3Tlii)
