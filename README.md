@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com/?font=JetBrains+Mono&amp;size=20&amp;duration=3000&amp;pause=1000&amp;color=00FF88&amp;background=00000000&amp;center=true&amp;vCenter=true&amp;width=600&amp;height=40&amp;lines=Building+Scalable+Systems;AI+Powered+Applications;Clean+Code.+Dirty+Deadlines.+Zero+Excuses.;Automation+First.;System+Designer." alt="System Status Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com/?font=JetBrains+Mono&size=20&duration=3000&pause=1000&color=00FF88&background=00000000&center=true&vCenter=true&width=600&height=40&lines=Building+Scalable+Systems;AI+Powered+Applications;Clean+Code.+Dirty+Deadlines.+Zero+Excuses.;Automation+First.;System+Designer." alt="System Status Typing SVG" />
 </p>
 
 <br />
@@ -28,7 +28,7 @@
 
 <p align="center">
   <a href="https://github.com/TousifTamboli">
-    <img src="https://komarev.com/ghvc/?username=TousifTamboli&amp;color=00ff88&amp;style=flat-square&amp;label=SYSTEM_VISITS" alt="System Visits Badge" />
+    <img src="https://komarev.com/ghvc/?username=TousifTamboli&color=00ff88&style=flat-square&label=SYSTEM_VISITS" alt="System Visits Badge" />
   </a>
 </p>
 
