@@ -59,16 +59,16 @@
 ## // SYSTEM_ANALYTICS
 
 <p align="center">
-  <img src="https://github-stats-extended.vercel.app/api?username=TousifTamboli&amp;show_icons=true&amp;bg_color=00000000&amp;title_color=00FF88&amp;text_color=ffffff&amp;icon_color=00FF88&amp;hide_border=true" width="48%" alt="GitHub Stats" />
-  <img src="https://github-stats-extended.vercel.app/api/top-langs/?username=TousifTamboli&amp;layout=compact&amp;bg_color=00000000&amp;title_color=00FF88&amp;text_color=ffffff&amp;icon_color=00FF88&amp;hide_border=true" width="48%" alt="Top Languages" />
+  <img src="https://github-stats-extended.vercel.app/api?username=TousifTamboli&show_icons=true&bg_color=00000000&title_color=00FF88&text_color=ffffff&icon_color=00FF88&hide_border=true" width="48%" alt="GitHub Stats" />
+  <img src="https://github-stats-extended.vercel.app/api/top-langs/?username=TousifTamboli&layout=compact&bg_color=00000000&title_color=00FF88&text_color=ffffff&icon_color=00FF88&hide_border=true" width="48%" alt="Top Languages" />
 </p>
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com?user=TousifTamboli&amp;theme=dark&amp;background=00000000&amp;fire=00FF88&amp;ring=00FF88&amp;currStreakNum=ffffff&amp;sideNums=ffffff&amp;sideLabels=8b949e&amp;dates=8b949e&amp;hide_border=true" width="97%" alt="Streak Stats" />
+  <img src="https://streak-stats.demolab.com?user=TousifTamboli&theme=dark&background=00000000&fire=00FF88&ring=00FF88&currStreakNum=ffffff&sideNums=ffffff&sideLabels=8b949e&dates=8b949e&hide_border=true" width="97%" alt="Streak Stats" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=TousifTamboli&amp;bg_color=00000000&amp;color=ffffff&amp;line=00FF88&amp;point=ffffff&amp;area=true&amp;area_color=00FF88&amp;hide_border=true&amp;custom_title=CONTRIBUTION%20ACTIVITY%20GRAPH" width="97%" alt="Activity Graph" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=TousifTamboli&bg_color=00000000&color=ffffff&line=00FF88&point=ffffff&area=true&area_color=00FF88&hide_border=true&custom_title=CONTRIBUTION%20ACTIVITY%20GRAPH" width="97%" alt="Activity Graph" />
 </p>
 
 <br />
