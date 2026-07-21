@@ -128,10 +128,6 @@
 
 <br />
 
-```text
-▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀
-                SYSTEM DEPLOYMENT SUCCESSFUL.
-               THE NEXT BREAKTHROUGH IS IN THE QUEUE.
-                >>> INITIATE_COLLABORATION.EXE <<<
-▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
-```
+<p align="center">
+  <img src="./assets/footer.svg" width="100%" alt="System Deployment Successful" />
+</p>
