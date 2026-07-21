@@ -1,0 +1,115 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 180" width="100%" height="auto">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&amp;display=swap');
+      
+      .monospace {
+        font-family: 'JetBrains Mono', monospace;
+      }
+      
+      .glow-green {
+        filter: url(#neon-glow);
+      }
+      
+      .glow-text {
+        text-shadow: 0 0 5px rgba(0, 255, 136, 0.5);
+      }
+      
+      @keyframes blink {
+        0%, 100% { opacity: 1; }
+        50% { opacity: 0.2; }
+      }
+      
+      @keyframes progress {
+        0% { stroke-dashoffset: 140; }
+        100% { stroke-dashoffset: 20; }
+      }
+
+      .blinking {
+        animation: blink 1.5s infinite;
+      }
+      
+      .coffee-bar {
+        stroke-dasharray: 140;
+        animation: progress 3s ease-out forwards;
+      }
+    </style>
+
+    <filter id="neon-glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+    
+    <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#020504" />
+      <stop offset="100%" stop-color="#070c0a" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="180" fill="url(#bg-grad)" rx="8" stroke="#00FF88" stroke-width="1" opacity="0.6" />
+
+  <!-- Grid overlay -->
+  <g opacity="0.03">
+    <path d="M 0,30 L 800,30 M 0,60 L 800,60 M 0,90 L 800,90 M 0,120 L 800,120 M 0,150 L 800,150" stroke="#00FF88" stroke-width="0.5" />
+    <path d="M 133,0 L 133,180 M 266,0 L 266,180 M 400,0 L 400,180 M 533,0 L 533,180 M 666,0 L 666,180" stroke="#00FF88" stroke-width="0.5" />
+  </g>
+
+  <!-- Title HUD bar -->
+  <rect x="0" y="0" width="800" height="28" fill="#050a08" stroke="#00FF88" stroke-width="0.5" opacity="0.8" />
+  <circle cx="15" cy="14" r="4" fill="#ff5f56" />
+  <circle cx="27" cy="14" r="4" fill="#ffbd2e" />
+  <circle cx="39" cy="14" r="4" fill="#27c93f" />
+  <text x="60" y="18" class="monospace" fill="#00FF88" font-size="10" font-weight="700" letter-spacing="1">SYSTEM DIAGNOSTICS // HOST_TELEMETRY</text>
+  <text x="740" y="18" class="monospace blinking" fill="#00FF88" font-size="9" text-anchor="end">SYS.STATUS: ONLINE</text>
+
+  <!-- Left Column: Specs -->
+  <g transform="translate(30, 45)">
+    <text x="0" y="15" class="monospace" fill="#888888" font-size="10" letter-spacing="1">NODE_SPECS</text>
+    <line x1="0" y1="22" x2="200" y2="22" stroke="#00FF88" stroke-width="0.5" opacity="0.3" />
+    
+    <text x="0" y="42" class="monospace" fill="#ffffff" font-size="11">HOST: <tspan fill="#00FF88">tousif.online</tspan></text>
+    <text x="0" y="60" class="monospace" fill="#ffffff" font-size="11">ENV: <tspan fill="#00FF88">Production.v2</tspan></text>
+    <text x="0" y="78" class="monospace" fill="#ffffff" font-size="11">UPTIME: <tspan fill="#00FF88">99.98% operational</tspan></text>
+    <text x="0" y="96" class="monospace" fill="#ffffff" font-size="11">OS: <tspan fill="#00FF88">GNU/Linux kernel</tspan></text>
+  </g>
+
+  <!-- Middle Column: Radar / Geolocation HUD -->
+  <g transform="translate(290, 45)">
+    <text x="0" y="15" class="monospace" fill="#888888" font-size="10" letter-spacing="1">GEOLOCATION_HUD</text>
+    <line x1="0" y1="22" x2="220" y2="22" stroke="#00FF88" stroke-width="0.5" opacity="0.3" />
+    
+    <!-- Stylized target scanning scope -->
+    <circle cx="50" cy="70" r="30" fill="none" stroke="#00FF88" stroke-width="0.5" opacity="0.2" />
+    <circle cx="50" cy="70" r="20" fill="none" stroke="#00FF88" stroke-width="0.5" opacity="0.4" />
+    <circle cx="50" cy="70" r="8" fill="none" stroke="#00FF88" stroke-width="1" class="glow-green blinking" />
+    <line x1="50" y1="30" x2="50" y2="110" stroke="#00FF88" stroke-width="0.5" opacity="0.3" />
+    <line x1="10" y1="70" x2="90" y2="70" stroke="#00FF88" stroke-width="0.5" opacity="0.3" />
+    
+    <!-- Geo details -->
+    <text x="100" y="52" class="monospace" fill="#ffffff" font-size="11">REGION: <tspan fill="#00FF88">Dhaka, BD</tspan></text>
+    <text x="100" y="70" class="monospace" fill="#ffffff" font-size="11">LAT: <tspan fill="#00FF88">23.8103° N</tspan></text>
+    <text x="100" y="88" class="monospace" fill="#ffffff" font-size="11">LNG: <tspan fill="#00FF88">90.4125° E</tspan></text>
+  </g>
+
+  <!-- Right Column: Status & Dials -->
+  <g transform="translate(560, 45)">
+    <text x="0" y="15" class="monospace" fill="#888888" font-size="10" letter-spacing="1">METRICS</text>
+    <line x1="0" y1="22" x2="210" y2="22" stroke="#00FF88" stroke-width="0.5" opacity="0.3" />
+    
+    <!-- Coffee level status bar -->
+    <text x="0" y="42" class="monospace" fill="#ffffff" font-size="11">COFFEE_RESERVE:</text>
+    <line x1="0" y1="52" x2="140" y2="52" stroke="#121a15" stroke-width="8" stroke-linecap="round" />
+    <line x1="0" y1="52" x2="140" y2="52" stroke="#00FF88" stroke-width="8" stroke-linecap="round" class="coffee-bar glow-green" />
+    <text x="150" y="56" class="monospace glow-green" font-size="11" font-weight="700">85%</text>
+
+    <!-- Availability indicator -->
+    <text x="0" y="80" class="monospace" fill="#ffffff" font-size="11">AVAILABILITY:</text>
+    <rect x="0" y="90" width="180" height="20" rx="3" fill="#04120a" stroke="#00FF88" stroke-width="0.5" />
+    <circle cx="12" cy="100" r="4" fill="#00FF88" class="blinking" />
+    <text x="24" y="103" class="monospace glow-green" font-size="9" font-weight="700" letter-spacing="0.5">OPEN_FOR_COLLABORATIONS</text>
+  </g>
+</svg>

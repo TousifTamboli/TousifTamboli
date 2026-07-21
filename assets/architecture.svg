@@ -1,0 +1,126 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 240" width="100%" height="auto">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&amp;display=swap');
+      
+      .monospace {
+        font-family: 'JetBrains Mono', monospace;
+      }
+      
+      .glow-green {
+        filter: url(#neon-glow);
+      }
+      
+      @keyframes pulse-dot {
+        0%, 100% { transform: scale(1); opacity: 0.8; }
+        50% { transform: scale(1.3); opacity: 1; }
+      }
+      
+      @keyframes dash {
+        to {
+          stroke-dashoffset: -40;
+        }
+      }
+
+      .pulse {
+        transform-origin: center;
+        animation: pulse-dot 2s infinite ease-in-out;
+      }
+      
+      .animated-line {
+        stroke-dasharray: 8, 4;
+        animation: dash 2s linear infinite;
+      }
+      
+      .node-text {
+        font-weight: 700;
+        fill: #ffffff;
+      }
+      
+      .sub-text {
+        fill: #888888;
+        font-size: 9px;
+      }
+    </style>
+
+    <filter id="neon-glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+    
+    <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#020504" />
+      <stop offset="100%" stop-color="#070c0a" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="240" fill="url(#bg-grad)" rx="8" stroke="#00FF88" stroke-width="1" opacity="0.6" />
+
+  <!-- Grid background overlay -->
+  <g opacity="0.05">
+    <path d="M 0,40 L 800,40 M 0,80 L 800,80 M 0,120 L 800,120 M 0,160 L 800,160 M 0,200 L 800,200" stroke="#00FF88" stroke-width="0.5" />
+    <path d="M 100,0 L 100,240 M 200,0 L 200,240 M 300,0 L 300,240 M 400,0 L 400,240 M 500,0 L 500,240 M 600,0 L 600,240 M 700,0 L 700,240" stroke="#00FF88" stroke-width="0.5" />
+  </g>
+
+  <!-- Connection Lines (Left side) -->
+  <!-- TOUSIF_CORE to FRONTEND -->
+  <path d="M 400,120 Q 300,60 200,60" fill="none" stroke="#00FF88" stroke-width="1.5" opacity="0.5" />
+  <path d="M 400,120 Q 300,60 200,60" fill="none" stroke="#00FF88" stroke-width="1.5" class="animated-line" opacity="0.8" />
+  
+  <!-- TOUSIF_CORE to BACKEND -->
+  <path d="M 400,120 Q 300,180 200,180" fill="none" stroke="#00FF88" stroke-width="1.5" opacity="0.5" />
+  <path d="M 400,120 Q 300,180 200,180" fill="none" stroke="#00FF88" stroke-width="1.5" class="animated-line" opacity="0.8" />
+
+  <!-- Connection Lines (Right side) -->
+  <!-- TOUSIF_CORE to AI_INTEGRATION -->
+  <path d="M 400,120 Q 500,60 600,60" fill="none" stroke="#00FF88" stroke-width="1.5" opacity="0.5" />
+  <path d="M 400,120 Q 500,60 600,60" fill="none" stroke="#00FF88" stroke-width="1.5" class="animated-line" opacity="0.8" />
+
+  <!-- TOUSIF_CORE to CLOUD_INFRA -->
+  <path d="M 400,120 Q 500,180 600,180" fill="none" stroke="#00FF88" stroke-width="1.5" opacity="0.5" />
+  <path d="M 400,120 Q 500,180 600,180" fill="none" stroke="#00FF88" stroke-width="1.5" class="animated-line" opacity="0.8" />
+
+  <!-- Central Node: TOUSIF_CORE -->
+  <g transform="translate(400, 120)">
+    <circle cx="0" cy="0" r="28" fill="#030705" stroke="#00FF88" stroke-width="2" class="glow-green" />
+    <circle cx="0" cy="0" r="6" fill="#00FF88" class="pulse" />
+    <text x="0" y="-35" class="monospace node-text glow-green" font-size="12" text-anchor="middle">CORE_SYSTEM</text>
+    <text x="0" y="38" class="monospace sub-text" text-anchor="middle" fill="#00FF88" opacity="0.8">TOUSIF.EXE</text>
+  </g>
+
+  <!-- Node: FRONTEND_SYSTEMS (Left Top) -->
+  <g transform="translate(200, 60)">
+    <rect x="-100" y="-20" width="160" height="40" rx="4" fill="#060c09" stroke="#00FF88" stroke-width="1" />
+    <circle cx="-90" cy="0" r="4" fill="#00FF88" />
+    <text x="-75" y="5" class="monospace node-text" font-size="11">FRONTEND_DEV</text>
+    <text x="-75" y="16" class="monospace sub-text">React / Next.js / UX</text>
+  </g>
+
+  <!-- Node: BACKEND_SYSTEMS (Left Bottom) -->
+  <g transform="translate(200, 180)">
+    <rect x="-100" y="-20" width="160" height="40" rx="4" fill="#060c09" stroke="#00FF88" stroke-width="1" />
+    <circle cx="-90" cy="0" r="4" fill="#00FF88" />
+    <text x="-75" y="5" class="monospace node-text" font-size="11">BACKEND_ARCH</text>
+    <text x="-75" y="16" class="monospace sub-text">Node / Rust / Go / DB</text>
+  </g>
+
+  <!-- Node: AI_INTEGRATION (Right Top) -->
+  <g transform="translate(600, 60)">
+    <rect x="-60" y="-20" width="160" height="40" rx="4" fill="#060c09" stroke="#00FF88" stroke-width="1" />
+    <circle cx="90" cy="0" r="4" fill="#00FF88" />
+    <text x="-45" y="5" class="monospace node-text" font-size="11">AI_SYSTEMS</text>
+    <text x="-45" y="16" class="monospace sub-text">Agents / LLMs / RAG</text>
+  </g>
+
+  <!-- Node: CLOUD_INFRA (Right Bottom) -->
+  <g transform="translate(600, 180)">
+    <rect x="-60" y="-20" width="160" height="40" rx="4" fill="#060c09" stroke="#00FF88" stroke-width="1" />
+    <circle cx="90" cy="0" r="4" fill="#00FF88" />
+    <text x="-45" y="5" class="monospace node-text" font-size="11">DEVOPS_CLOUD</text>
+    <text x="-45" y="16" class="monospace sub-text">Docker / K8s / AWS</text>
+  </g>
+</svg>
