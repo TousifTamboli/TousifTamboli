@@ -52,13 +52,7 @@
   <img src="./assets/selected-works.svg" width="100%" alt="Architectural Showcase Selected Works" />
 </p>
 
-<p align="center">
-  <b>ACCESS PORTALS:</b> 
-  <a href="https://govguidebot.tousif.online">01 // GovGuideBot</a> &nbsp;|&nbsp; 
-  <a href="https://automation.tousif.online">02 // UR Automation Suite</a> &nbsp;|&nbsp; 
-  <a href="https://nocodedb.tousif.online">03 // NoCode DB Builder</a> &nbsp;|&nbsp; 
-  <a href="https://quantum.tousif.online">04 // Quantum ERP System</a>
-</p>
+
 
 <br />
 
