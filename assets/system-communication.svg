@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 220" width="100%" height="auto">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&amp;display=swap');
+      
+      .monospace {
+        font-family: 'JetBrains Mono', monospace;
+      }
+      
+      .glow-green {
+        filter: url(#neon-glow);
+      }
+      
+      @keyframes blink {
+        0%, 100% { opacity: 1; }
+        50% { opacity: 0.2; }
+      }
+
+      .blinking {
+        animation: blink 1.5s infinite;
+      }
+      
+      .link-text {
+        fill: #00FF88;
+        font-weight: bold;
+        text-decoration: underline;
+      }
+      
+      .link-text:hover {
+        fill: #ffffff;
+      }
+    </style>
+
+    <filter id="neon-glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+    
+    <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#020504" />
+      <stop offset="100%" stop-color="#070c0a" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="220" fill="url(#bg-grad)" rx="8" stroke="#00FF88" stroke-width="1" opacity="0.6" />
+
+  <!-- Grid overlay -->
+  <g opacity="0.03">
+    <path d="M 0,30 L 800,30 M 0,60 L 800,60 M 0,90 L 800,90 M 0,120 L 800,120 M 0,150 L 800,150 M 0,180 L 800,180" stroke="#00FF88" stroke-width="0.5" />
+    <path d="M 133,0 L 133,220 M 266,0 L 266,220 M 400,0 L 400,220 M 533,0 L 533,220 M 666,0 L 666,220" stroke="#00FF88" stroke-width="0.5" />
+  </g>
+
+  <!-- Title HUD bar -->
+  <rect x="0" y="0" width="800" height="28" fill="#050a08" stroke="#00FF88" stroke-width="0.5" opacity="0.8" />
+  <circle cx="15" cy="14" r="4" fill="#00FF88" class="blinking" />
+  <text x="30" y="18" class="monospace" fill="#00FF88" font-size="10" font-weight="700" letter-spacing="1">NETWORK_INTERFACE // SOCKET_ROUTING</text>
+
+  <!-- CLI command and netstat output -->
+  <g transform="translate(30, 45)">
+    <text x="0" y="15" class="monospace" fill="#00FF88" font-size="11" font-weight="700">$ netstat -tousif_links</text>
+    
+    <text x="0" y="42" class="monospace" fill="#888888" font-size="10" font-weight="700">Proto  Local Address          Foreign Address        State        Interface</text>
+    <line x1="0" y1="48" x2="740" y2="48" stroke="#00FF88" stroke-width="0.5" opacity="0.3" />
+    
+    <!-- Row 1: Website -->
+    <text x="0" y="70" class="monospace" fill="#ffffff" font-size="10">tcp    127.0.0.1:80           tousif.online          ESTABLISHED  [Web Port]</text>
+    
+    <!-- Row 2: GitHub -->
+    <text x="0" y="92" class="monospace" fill="#ffffff" font-size="10">tcp    127.0.0.1:443          github.com/tousif      ESTABLISHED  [GitHub]</text>
+
+    <!-- Row 3: LinkedIn -->
+    <text x="0" y="114" class="monospace" fill="#ffffff" font-size="10">tcp    127.0.0.1:3000         linkedin.com/tousif    ESTABLISHED  [LinkedIn]</text>
+
+    <!-- Row 4: Twitter/X -->
+    <text x="0" y="136" class="monospace" fill="#ffffff" font-size="10">tcp    127.0.0.1:8080         x.com/tousif           ESTABLISHED  [Twitter/X]</text>
+
+    <!-- Row 5: Email -->
+    <text x="0" y="158" class="monospace" fill="#ffffff" font-size="10">tcp    127.0.0.1:25           tousiftamboli3@gmail   ESTABLISHED  [Email]</text>
+  </g>
+
+  <!-- Visual indicator ticks -->
+  <line x1="30" y1="210" x2="770" y2="210" stroke="#00FF88" stroke-width="0.5" opacity="0.3" />
+</svg>

@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 180" width="100%" height="auto">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&amp;display=swap');
+      
+      .monospace {
+        font-family: 'JetBrains Mono', monospace;
+      }
+      
+      .glow-green {
+        filter: url(#neon-glow);
+      }
+      
+      @keyframes blink {
+        0%, 100% { opacity: 1; }
+        50% { opacity: 0.2; }
+      }
+
+      .blinking {
+        animation: blink 1.5s infinite;
+      }
+    </style>
+
+    <filter id="neon-glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+    
+    <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#020504" />
+      <stop offset="100%" stop-color="#070c0a" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="180" fill="url(#bg-grad)" rx="8" stroke="#00FF88" stroke-width="1" opacity="0.6" />
+
+  <!-- Grid overlay -->
+  <g opacity="0.03">
+    <path d="M 0,30 L 800,30 M 0,60 L 800,60 M 0,90 L 800,90 M 0,120 L 800,120 M 0,150 L 800,150" stroke="#00FF88" stroke-width="0.5" />
+    <path d="M 133,0 L 133,180 M 266,0 L 266,180 M 400,0 L 400,180 M 533,0 L 533,180 M 666,0 L 666,180" stroke="#00FF88" stroke-width="0.5" />
+  </g>
+
+  <!-- Title HUD bar -->
+  <rect x="0" y="0" width="800" height="28" fill="#050a08" stroke="#00FF88" stroke-width="0.5" opacity="0.8" />
+  <circle cx="15" cy="14" r="4" fill="#00FF88" class="blinking" />
+  <text x="30" y="18" class="monospace" fill="#00FF88" font-size="10" font-weight="700" letter-spacing="1">PROCESS_MONITOR // CURRENTLY_EXECUTING</text>
+
+  <!-- Left Side Telemetry Console -->
+  <g transform="translate(30, 45)">
+    <text x="0" y="15" class="monospace" fill="#00FF88" font-size="11" font-weight="700">$ current_project</text>
+    <text x="15" y="32" class="monospace" fill="#ffffff" font-size="11">├── Developing high-throughput autonomous agents for workflow orchestration.</text>
+    <text x="15" y="47" class="monospace" fill="#ffffff" font-size="11">└── Refining distributed transaction scaling architectures.</text>
+
+    <text x="0" y="70" class="monospace" fill="#00FF88" font-size="11" font-weight="700">$ learning</text>
+    <text x="15" y="87" class="monospace" fill="#ffffff" font-size="11">└── Distributed Consensus constraints on microsecond-level synchronization.</text>
+
+    <text x="0" y="110" class="monospace" fill="#00FF88" font-size="11" font-weight="700">$ reading</text>
+    <text x="15" y="127" class="monospace" fill="#ffffff" font-size="11">└── Designing Data-Intensive Applications (Kleppmann) - Re-evaluating models.</text>
+  </g>
+</svg>

@@ -1,0 +1,158 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 280" width="100%" height="auto">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&amp;display=swap');
+      
+      .monospace {
+        font-family: 'JetBrains Mono', monospace;
+      }
+      
+      .glow-green {
+        filter: url(#neon-glow);
+      }
+      
+      .glow-text {
+        text-shadow: 0 0 5px rgba(0, 255, 136, 0.5);
+      }
+      
+      @keyframes blink {
+        0%, 100% { opacity: 1; }
+        50% { opacity: 0.2; }
+      }
+      
+      @keyframes fillProgress {
+        from { stroke-dashoffset: 100; }
+        to { stroke-dashoffset: 0; }
+      }
+
+      .blinking {
+        animation: blink 1.5s infinite;
+      }
+      
+      .progress-bar {
+        stroke-dasharray: 100;
+        animation: fillProgress 2s ease-out forwards;
+      }
+    </style>
+
+    <filter id="neon-glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+    
+    <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#020504" />
+      <stop offset="100%" stop-color="#070c0a" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="280" fill="url(#bg-grad)" rx="8" stroke="#00FF88" stroke-width="1" opacity="0.6" />
+
+  <!-- Grid overlay -->
+  <g opacity="0.03">
+    <path d="M 0,40 L 800,40 M 0,80 L 800,80 M 0,120 L 800,120 M 0,160 L 800,160 M 0,200 L 800,200 M 0,240 L 800,240" stroke="#00FF88" stroke-width="0.5" />
+    <path d="M 100,0 L 100,280 M 200,0 L 200,280 M 300,0 L 300,280 M 400,0 L 400,280 M 500,0 L 500,280 M 600,0 L 600,280 M 700,0 L 700,280" stroke="#00FF88" stroke-width="0.5" />
+  </g>
+
+  <!-- Title HUD bar -->
+  <rect x="0" y="0" width="800" height="28" fill="#050a08" stroke="#00FF88" stroke-width="0.5" opacity="0.8" />
+  <circle cx="15" cy="14" r="4" fill="#00FF88" class="blinking" />
+  <text x="30" y="18" class="monospace" fill="#00FF88" font-size="10" font-weight="700" letter-spacing="1">SYSTEM_SPECIFICATION // HARDWARE_TECH_STACK</text>
+
+  <!-- Category 1: Languages -->
+  <g transform="translate(30, 45)">
+    <text x="0" y="15" class="monospace glow-green" fill="#00FF88" font-size="11" font-weight="700">01 / CORE_LANGUAGES</text>
+    <rect x="0" y="22" width="160" height="1" fill="#00FF88" opacity="0.3" />
+    
+    <text x="0" y="45" class="monospace" fill="#ffffff" font-size="10">TypeScript ..... <tspan fill="#00FF88">95%</tspan></text>
+    <line x1="0" y1="52" x2="160" y2="52" stroke="#121a15" stroke-width="4" />
+    <line x1="0" y1="52" x2="152" y2="52" stroke="#00FF88" stroke-width="4" class="glow-green" />
+
+    <text x="0" y="80" class="monospace" fill="#ffffff" font-size="10">Go ............. <tspan fill="#00FF88">85%</tspan></text>
+    <line x1="0" y1="87" x2="160" y2="87" stroke="#121a15" stroke-width="4" />
+    <line x1="0" y1="87" x2="136" y2="87" stroke="#00FF88" stroke-width="4" class="glow-green" />
+
+    <text x="0" y="115" class="monospace" fill="#ffffff" font-size="10">Rust ........... <tspan fill="#00FF88">70%</tspan></text>
+    <line x1="0" y1="122" x2="160" y2="122" stroke="#121a15" stroke-width="4" />
+    <line x1="0" y1="122" x2="112" y2="122" stroke="#00FF88" stroke-width="4" class="glow-green" />
+
+    <text x="0" y="150" class="monospace" fill="#ffffff" font-size="10">Python ......... <tspan fill="#00FF88">80%</tspan></text>
+    <line x1="0" y1="157" x2="160" y2="157" stroke="#121a15" stroke-width="4" />
+    <line x1="0" y1="157" x2="128" y2="157" stroke="#00FF88" stroke-width="4" class="glow-green" />
+  </g>
+
+  <!-- Category 2: Frontend -->
+  <g transform="translate(220, 45)">
+    <text x="0" y="15" class="monospace glow-green" fill="#00FF88" font-size="11" font-weight="700">02 / FRONTEND_SUITE</text>
+    <rect x="0" y="22" width="160" height="1" fill="#00FF88" opacity="0.3" />
+    
+    <text x="0" y="45" class="monospace" fill="#ffffff" font-size="10">React / Next.js . <tspan fill="#00FF88">95%</tspan></text>
+    <line x1="0" y1="52" x2="160" y2="52" stroke="#121a15" stroke-width="4" />
+    <line x1="0" y1="52" x2="152" y2="52" stroke="#00FF88" stroke-width="4" class="glow-green" />
+
+    <text x="0" y="80" class="monospace" fill="#ffffff" font-size="10">HTML5 / CSS3 ... <tspan fill="#00FF88">90%</tspan></text>
+    <line x1="0" y1="87" x2="160" y2="87" stroke="#121a15" stroke-width="4" />
+    <line x1="0" y1="87" x2="144" y2="87" stroke="#00FF88" stroke-width="4" class="glow-green" />
+
+    <text x="0" y="115" class="monospace" fill="#ffffff" font-size="10">Tailwind CSS ... <tspan fill="#00FF88">95%</tspan></text>
+    <line x1="0" y1="122" x2="160" y2="122" stroke="#121a15" stroke-width="4" />
+    <line x1="0" y1="122" x2="152" y2="122" stroke="#00FF88" stroke-width="4" class="glow-green" />
+
+    <text x="0" y="150" class="monospace" fill="#ffffff" font-size="10">State Layers ... <tspan fill="#00FF88">90%</tspan></text>
+    <line x1="0" y1="157" x2="160" y2="157" stroke="#121a15" stroke-width="4" />
+    <line x1="0" y1="157" x2="144" y2="157" stroke="#00FF88" stroke-width="4" class="glow-green" />
+  </g>
+
+  <!-- Category 3: Backend & Data -->
+  <g transform="translate(410, 45)">
+    <text x="0" y="15" class="monospace glow-green" fill="#00FF88" font-size="11" font-weight="700">03 / BACKEND_DATA</text>
+    <rect x="0" y="22" width="160" height="1" fill="#00FF88" opacity="0.3" />
+    
+    <text x="0" y="45" class="monospace" fill="#ffffff" font-size="10">Node.js/NestJS . <tspan fill="#00FF88">90%</tspan></text>
+    <line x1="0" y1="52" x2="160" y2="52" stroke="#121a15" stroke-width="4" />
+    <line x1="0" y1="52" x2="144" y2="52" stroke="#00FF88" stroke-width="4" class="glow-green" />
+
+    <text x="0" y="80" class="monospace" fill="#ffffff" font-size="10">PostgreSQL ..... <tspan fill="#00FF88">85%</tspan></text>
+    <line x1="0" y1="87" x2="160" y2="87" stroke="#121a15" stroke-width="4" />
+    <line x1="0" y1="87" x2="136" y2="87" stroke="#00FF88" stroke-width="4" class="glow-green" />
+
+    <text x="0" y="115" class="monospace" fill="#ffffff" font-size="10">Redis Cache .... <tspan fill="#00FF88">85%</tspan></text>
+    <line x1="0" y1="122" x2="160" y2="122" stroke="#121a15" stroke-width="4" />
+    <line x1="0" y1="122" x2="136" y2="122" stroke="#00FF88" stroke-width="4" class="glow-green" />
+
+    <text x="0" y="150" class="monospace" fill="#ffffff" font-size="10">MongoDB ........ <tspan fill="#00FF88">80%</tspan></text>
+    <line x1="0" y1="157" x2="160" y2="157" stroke="#121a15" stroke-width="4" />
+    <line x1="0" y1="157" x2="128" y2="157" stroke="#00FF88" stroke-width="4" class="glow-green" />
+  </g>
+
+  <!-- Category 4: Cloud & AI -->
+  <g transform="translate(600, 45)">
+    <text x="0" y="15" class="monospace glow-green" fill="#00FF88" font-size="11" font-weight="700">04 / CLOUD_AI</text>
+    <rect x="0" y="22" width="160" height="1" fill="#00FF88" opacity="0.3" />
+    
+    <text x="0" y="45" class="monospace" fill="#ffffff" font-size="10">AWS Services ... <tspan fill="#00FF88">80%</tspan></text>
+    <line x1="0" y1="52" x2="160" y2="52" stroke="#121a15" stroke-width="4" />
+    <line x1="0" y1="52" x2="128" y2="52" stroke="#00FF88" stroke-width="4" class="glow-green" />
+
+    <text x="0" y="80" class="monospace" fill="#ffffff" font-size="10">Docker / K8s ... <tspan fill="#00FF88">85%</tspan></text>
+    <line x1="0" y1="87" x2="160" y2="87" stroke="#121a15" stroke-width="4" />
+    <line x1="0" y1="87" x2="136" y2="87" stroke="#00FF88" stroke-width="4" class="glow-green" />
+
+    <text x="0" y="115" class="monospace" fill="#ffffff" font-size="10">OpenAI Agents .. <tspan fill="#00FF88">90%</tspan></text>
+    <line x1="0" y1="122" x2="160" y2="122" stroke="#121a15" stroke-width="4" />
+    <line x1="0" y1="122" x2="144" y2="122" stroke="#00FF88" stroke-width="4" class="glow-green" />
+
+    <text x="0" y="150" class="monospace" fill="#ffffff" font-size="10">LangChain/RAG .. <tspan fill="#00FF88">85%</tspan></text>
+    <line x1="0" y1="157" x2="160" y2="157" stroke="#121a15" stroke-width="4" />
+    <line x1="0" y1="157" x2="136" y2="157" stroke="#00FF88" stroke-width="4" class="glow-green" />
+  </g>
+
+  <!-- Footer Stats Bar -->
+  <line x1="30" y1="235" x2="770" y2="235" stroke="#00FF88" stroke-width="0.5" opacity="0.3" />
+  <text x="30" y="252" class="monospace" fill="#888888" font-size="9" letter-spacing="1">SYSTEM RESOURCES: STABLE</text>
+  <text x="770" y="252" class="monospace" fill="#00FF88" font-size="9" letter-spacing="1" text-anchor="end">MAX_PERFORMANCE</text>
+</svg>
