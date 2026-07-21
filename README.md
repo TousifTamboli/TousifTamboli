@@ -8,18 +8,6 @@
 
 <br />
 
-```text
-$ initialize --system-parameters --force
-
-[  OK  ] Initializing Core Memory Bus (256-bit wide)
-[  OK  ] Mounting /sys/bio/tousif (Read-Only)
-[  OK  ] Connecting Neural Pipeline to Vercel/AWS Gateways
-[  OK  ] Security Protocols Loaded: SHIELD.EXE Active
-[  OK  ] System parameters loaded successfully.
-```
-
-<br />
-
 ## // ABOUT_ME
 
 <p align="center">
@@ -36,7 +24,7 @@ $ initialize --system-parameters --force
 
 <p align="center">
   <a href="https://github.com/TousifTamboli">
-    <img src="https://komarev.com/ghvc/?username=tousiftamboli&amp;color=00ff88&amp;style=flat-square&amp;label=SYSTEM_VISITS" alt="System Visits Badge" />
+    <img src="https://komarev.com/ghvc/?username=TousifTamboli&amp;color=00ff88&amp;style=flat-square&amp;label=SYSTEM_VISITS" alt="System Visits Badge" />
   </a>
 </p>
 
@@ -77,16 +65,16 @@ $ initialize --system-parameters --force
 ## // SYSTEM_ANALYTICS
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=tousiftamboli&amp;show_icons=true&amp;bg_color=00000000&amp;title_color=00FF88&amp;text_color=ffffff&amp;icon_color=00FF88&amp;hide_border=true" width="48%" alt="GitHub Stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=tousiftamboli&amp;layout=compact&amp;bg_color=00000000&amp;title_color=00FF88&amp;text_color=ffffff&amp;icon_color=00FF88&amp;hide_border=true" width="48%" alt="Top Languages" />
+  <img src="https://github-readme-stats.vercel.app/api?username=TousifTamboli&amp;show_icons=true&amp;bg_color=00000000&amp;title_color=00FF88&amp;text_color=ffffff&amp;icon_color=00FF88&amp;hide_border=true" width="48%" alt="GitHub Stats" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=TousifTamboli&amp;layout=compact&amp;bg_color=00000000&amp;title_color=00FF88&amp;text_color=ffffff&amp;icon_color=00FF88&amp;hide_border=true" width="48%" alt="Top Languages" />
 </p>
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com?user=tousiftamboli&amp;theme=dark&amp;background=00000000&amp;fire=00FF88&amp;ring=00FF88&amp;currStreakNum=ffffff&amp;sideNums=ffffff&amp;sideLabels=8b949e&amp;dates=8b949e&amp;hide_border=true" width="97%" alt="Streak Stats" />
+  <img src="https://streak-stats.demolab.com?user=TousifTamboli&amp;theme=dark&amp;background=00000000&amp;fire=00FF88&amp;ring=00FF88&amp;currStreakNum=ffffff&amp;sideNums=ffffff&amp;sideLabels=8b949e&amp;dates=8b949e&amp;hide_border=true" width="97%" alt="Streak Stats" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=tousiftamboli&amp;bg_color=00000000&amp;color=ffffff&amp;line=00FF88&amp;point=ffffff&amp;area=true&amp;area_color=00FF88&amp;hide_border=true&amp;custom_title=CONTRIBUTION%20ACTIVITY%20GRAPH" width="97%" alt="Activity Graph" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=TousifTamboli&amp;bg_color=00000000&amp;color=ffffff&amp;line=00FF88&amp;point=ffffff&amp;area=true&amp;area_color=00FF88&amp;hide_border=true&amp;custom_title=CONTRIBUTION%20ACTIVITY%20GRAPH" width="97%" alt="Activity Graph" />
 </p>
 
 <br />
@@ -95,9 +83,9 @@ $ initialize --system-parameters --force
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/tousiftamboli/tousiftamboli/output/github-contribution-grid-snake-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/tousiftamboli/tousiftamboli/output/github-contribution-grid-snake.svg">
-    <img alt="github contribution grid snake" src="https://raw.githubusercontent.com/tousiftamboli/tousiftamboli/output/github-contribution-grid-snake.svg" width="97%">
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/TousifTamboli/TousifTamboli/output/github-contribution-grid-snake-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/TousifTamboli/TousifTamboli/output/github-contribution-grid-snake.svg">
+    <img alt="github contribution grid snake" src="https://raw.githubusercontent.com/TousifTamboli/TousifTamboli/output/github-contribution-grid-snake.svg" width="97%">
   </picture>
 </p>
 
@@ -113,11 +101,9 @@ $ initialize --system-parameters --force
 
 ## // OPEN_SOURCE
 
-```text
-Believer in open and verifiable systems.
-Focused on contributing to core libraries, developer tooling, and automated workflows.
-Building components that remove friction for other engineers.
-```
+<p align="center">
+  <img src="./assets/open-source.svg" width="100%" alt="Open Source Core Values" />
+</p>
 
 <br />
 

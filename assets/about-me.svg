@@ -1,5 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 180" width="100%" height="auto">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 280" width="100%" height="auto">
   <defs>
+    <!-- Monospace font import -->
     <style>
       @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&amp;display=swap');
       
@@ -30,12 +31,12 @@
       }
       
       .rotating {
-        transform-origin: 670px 90px;
+        transform-origin: 670px 140px;
         animation: rotate 12s linear infinite;
       }
       
       .rotating-reverse {
-        transform-origin: 670px 90px;
+        transform-origin: 670px 140px;
         animation: rotate 8s linear infinite reverse;
       }
     </style>
@@ -55,34 +56,43 @@
   </defs>
 
   <!-- Background -->
-  <rect width="800" height="180" fill="url(#bg-grad)" rx="8" stroke="#00FF88" stroke-width="1" opacity="0.6" />
+  <rect width="800" height="280" fill="url(#bg-grad)" rx="8" stroke="#00FF88" stroke-width="1" opacity="0.6" />
 
   <!-- Grid overlay -->
   <g opacity="0.03">
-    <path d="M 0,30 L 800,30 M 0,60 L 800,60 M 0,90 L 800,90 M 0,120 L 800,120 M 0,150 L 800,150" stroke="#00FF88" stroke-width="0.5" />
-    <path d="M 133,0 L 133,180 M 266,0 L 266,180 M 400,0 L 400,180 M 533,0 L 533,180 M 666,0 L 666,180" stroke="#00FF88" stroke-width="0.5" />
+    <path d="M 0,30 L 800,30 M 0,60 L 800,60 M 0,90 L 800,90 M 0,120 L 800,120 M 0,150 L 800,150 M 0,180 L 800,180 M 0,210 L 800,210 M 0,240 L 800,240" stroke="#00FF88" stroke-width="0.5" />
+    <path d="M 133,0 L 133,280 M 266,0 L 266,280 M 400,0 L 400,280 M 533,0 L 533,280 M 666,0 L 666,280" stroke="#00FF88" stroke-width="0.5" />
   </g>
 
   <!-- Section Title -->
   <rect x="0" y="0" width="800" height="28" fill="#050a08" stroke="#00FF88" stroke-width="0.5" opacity="0.8" />
   <circle cx="15" cy="14" r="4" fill="#00FF88" class="blinking" />
-  <text x="30" y="18" class="monospace" fill="#00FF88" font-size="10" font-weight="700" letter-spacing="1">USER_CONSOLE // IDENTITY_LOG</text>
+  <text x="30" y="18" class="monospace" fill="#00FF88" font-size="10" font-weight="700" letter-spacing="1">USER_CONSOLE // IDENTITY_LOG_INITIALIZE</text>
 
-  <!-- Left: CLI Prompts -->
+  <!-- Top-left: Simulated Boot Sequence -->
   <g transform="translate(30, 45)">
-    <text x="0" y="15" class="monospace" fill="#00FF88" font-size="11" font-weight="700">$ whoami</text>
-    <text x="15" y="32" class="monospace" fill="#ffffff" font-size="11">Tousif Tamboli — Full Stack Architect &amp; System Designer.</text>
-    
-    <text x="0" y="55" class="monospace" fill="#00FF88" font-size="11" font-weight="700">$ specialization</text>
-    <text x="15" y="72" class="monospace" fill="#ffffff" font-size="11">Distributed Systems, Event-Driven Architectures, &amp; AI-Agent Workflows.</text>
+    <text x="0" y="12" class="monospace" fill="#00FF88" font-size="10" font-weight="700">[  OK  ] <tspan fill="#ffffff">Initializing Core Memory Bus (256-bit wide)</tspan></text>
+    <text x="0" y="27" class="monospace" fill="#00FF88" font-size="10" font-weight="700">[  OK  ] <tspan fill="#ffffff">Mounting /sys/bio/tousif (Read-Only)</tspan></text>
+    <text x="0" y="42" class="monospace" fill="#00FF88" font-size="10" font-weight="700">[  OK  ] <tspan fill="#ffffff">Connecting Neural Pipeline to Vercel/AWS Gateways</tspan></text>
+    <text x="0" y="57" class="monospace" fill="#00FF88" font-size="10" font-weight="700">[  OK  ] <tspan fill="#ffffff">Security Protocols Loaded: SHIELD.EXE Active</tspan></text>
+    <line x1="0" y1="67" x2="520" y2="67" stroke="#00FF88" stroke-width="0.5" opacity="0.3" />
+  </g>
 
-    <text x="0" y="95" class="monospace" fill="#00FF88" font-size="11" font-weight="700">$ core_philosophy</text>
-    <text x="15" y="112" class="monospace" fill="#888888" font-size="11" font-style="italic">"Clean code. Dirty deadlines. Zero excuses."</text>
-    <text x="15" y="127" class="monospace" fill="#888888" font-size="10">Automate everything. Code cleanly. Let system metrics prove the quality.</text>
+  <!-- Bottom-left: CLI Prompts -->
+  <g transform="translate(30, 130)">
+    <text x="0" y="12" class="monospace" fill="#00FF88" font-size="11" font-weight="700">$ whoami</text>
+    <text x="15" y="27" class="monospace" fill="#ffffff" font-size="11">Tousif Tamboli — Full Stack Architect &amp; System Designer.</text>
+    
+    <text x="0" y="50" class="monospace" fill="#00FF88" font-size="11" font-weight="700">$ specialization</text>
+    <text x="15" y="65" class="monospace" fill="#ffffff" font-size="11">Distributed Systems, Event-Driven Architectures, &amp; AI Agents.</text>
+
+    <text x="0" y="88" class="monospace" fill="#00FF88" font-size="11" font-weight="700">$ core_philosophy</text>
+    <text x="15" y="103" class="monospace" fill="#888888" font-size="11" font-style="italic">"Clean code. Dirty deadlines. Zero excuses."</text>
+    <text x="15" y="118" class="monospace" fill="#888888" font-size="10">Automate everything. Code cleanly. Let system metrics prove the quality.</text>
   </g>
 
   <!-- Right: Decorative Core Processor HUD Graphic -->
-  <g>
+  <g transform="translate(0, 50)">
     <!-- Outer Ring -->
     <circle cx="670" cy="90" r="45" fill="none" stroke="#122a1f" stroke-width="1.5" />
     <circle cx="670" cy="90" r="40" fill="none" stroke="#00FF88" stroke-width="1.5" stroke-dasharray="10 15" opacity="0.3" class="rotating" />
