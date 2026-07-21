@@ -76,11 +76,7 @@
 ### // CONTRIBUTION_SNAKE
 
 <p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/TousifTamboli/TousifTamboli/output/github-contribution-grid-snake-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/TousifTamboli/TousifTamboli/output/github-contribution-grid-snake.svg">
-    <img alt="github contribution grid snake" src="https://raw.githubusercontent.com/TousifTamboli/TousifTamboli/output/github-contribution-grid-snake.svg" width="97%">
-  </picture>
+  <img src="https://raw.githubusercontent.com/TousifTamboli/TousifTamboli/output/github-contribution-grid-snake-dark.svg?v=1" width="97%" alt="GitHub Contribution Snake" />
 </p>
 
 <br />
