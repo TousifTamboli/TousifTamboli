@@ -159,6 +159,6 @@
 
   <!-- Bottom Details Bar -->
   <line x1="40" y1="225" x2="760" y2="225" stroke="#00FF88" stroke-width="0.5" opacity="0.3" />
-  <text x="40" y="238" class="monospace" fill="#888888" font-size="9" letter-spacing="1">LOC: 23.8103° N, 90.4125° E (DHAKA, BD)</text>
+  <text x="40" y="238" class="monospace" fill="#888888" font-size="9" letter-spacing="1">LOC: 18.5204° N, 73.8567° E (PUNE, INDIA)</text>
   <text x="650" y="238" class="monospace" fill="#00FF88" font-size="9" letter-spacing="1">BUILDING FUTURES</text>
 </svg>

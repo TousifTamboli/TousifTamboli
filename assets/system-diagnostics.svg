@@ -90,9 +90,9 @@
     <line x1="10" y1="70" x2="90" y2="70" stroke="#00FF88" stroke-width="0.5" opacity="0.3" />
     
     <!-- Geo details -->
-    <text x="100" y="52" class="monospace" fill="#ffffff" font-size="11">REGION: <tspan fill="#00FF88">Dhaka, BD</tspan></text>
-    <text x="100" y="70" class="monospace" fill="#ffffff" font-size="11">LAT: <tspan fill="#00FF88">23.8103° N</tspan></text>
-    <text x="100" y="88" class="monospace" fill="#ffffff" font-size="11">LNG: <tspan fill="#00FF88">90.4125° E</tspan></text>
+    <text x="100" y="52" class="monospace" fill="#ffffff" font-size="11">REGION: <tspan fill="#00FF88">Pune, IN</tspan></text>
+    <text x="100" y="70" class="monospace" fill="#ffffff" font-size="11">LAT: <tspan fill="#00FF88">18.5204° N</tspan></text>
+    <text x="100" y="88" class="monospace" fill="#ffffff" font-size="11">LNG: <tspan fill="#00FF88">73.8567° E</tspan></text>
   </g>
 
   <!-- Right Column: Status & Dials -->
