@@ -8,7 +8,9 @@
 
 <br />
 
-## // ABOUT_ME
+<p align="center">
+  <img src="./assets/h-about-me.svg" width="100%" alt="About Me Section" />
+</p>
 
 <p align="center">
   <img src="./assets/about-me.svg" width="100%" alt="User Console Identity Log" />
@@ -16,7 +18,9 @@
 
 <br />
 
-## // SYSTEM_DIAGNOSTICS
+<p align="center">
+  <img src="./assets/h-system-diagnostics.svg" width="100%" alt="System Diagnostics Section" />
+</p>
 
 <p align="center">
   <img src="./assets/system-diagnostics.svg" width="100%" alt="System Diagnostics Dashboard" />
@@ -30,7 +34,9 @@
 
 <br />
 
-## // TECH_STACK
+<p align="center">
+  <img src="./assets/h-tech-stack.svg" width="100%" alt="Tech Stack Section" />
+</p>
 
 <p align="center">
   <img src="./assets/tech-stack.svg" width="100%" alt="System Technical Specifications" />
@@ -38,7 +44,9 @@
 
 <br />
 
-## // ARCHITECTURAL_CAPABILITIES
+<p align="center">
+  <img src="./assets/h-architectural-capabilities.svg" width="100%" alt="Architectural Capabilities Section" />
+</p>
 
 <p align="center">
   <img src="./assets/architecture.svg" width="100%" alt="Architectural Capabilities Node Diagram" />
@@ -46,17 +54,19 @@
 
 <br />
 
-## // SELECTED_WORKS
+<p align="center">
+  <img src="./assets/h-selected-works.svg" width="100%" alt="Selected Works Section" />
+</p>
 
 <p align="center">
   <img src="./assets/selected-works.svg" width="100%" alt="Architectural Showcase Selected Works" />
 </p>
 
-
-
 <br />
 
-## // SYSTEM_ANALYTICS
+<p align="center">
+  <img src="./assets/h-system-analytics.svg" width="100%" alt="System Analytics Section" />
+</p>
 
 <p align="center">
   <img src="https://github-stats-extended.vercel.app/api?username=TousifTamboli&show_icons=true&bg_color=00000000&title_color=00FF88&text_color=ffffff&icon_color=00FF88&hide_border=true" width="48%" alt="GitHub Stats" />
@@ -73,15 +83,15 @@
 
 <br />
 
-### // CONTRIBUTION_SNAKE
-
 <p align="center">
   <img src="https://raw.githubusercontent.com/TousifTamboli/TousifTamboli/output/github-contribution-grid-snake-dark.svg?v=1" width="97%" alt="GitHub Contribution Snake" />
 </p>
 
 <br />
 
-## // CURRENTLY_EXECUTING
+<p align="center">
+  <img src="./assets/h-currently-executing.svg" width="100%" alt="Currently Executing Section" />
+</p>
 
 <p align="center">
   <img src="./assets/currently-executing.svg" width="100%" alt="Process Monitor Currently Executing" />
@@ -89,7 +99,9 @@
 
 <br />
 
-## // OPEN_SOURCE
+<p align="center">
+  <img src="./assets/h-open-source.svg" width="100%" alt="Open Source Section" />
+</p>
 
 <p align="center">
   <img src="./assets/open-source.svg" width="100%" alt="Open Source Core Values" />
@@ -97,7 +109,9 @@
 
 <br />
 
-## // SYSTEM_COMMUNICATION
+<p align="center">
+  <img src="./assets/h-system-communication.svg" width="100%" alt="System Communication Section" />
+</p>
 
 <p align="center">
   <img src="./assets/system-communication.svg" width="100%" alt="Network Socket Routing Map" />
