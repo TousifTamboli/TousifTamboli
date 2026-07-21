@@ -59,8 +59,8 @@
 ## // SYSTEM_ANALYTICS
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=TousifTamboli&amp;show_icons=true&amp;bg_color=00000000&amp;title_color=00FF88&amp;text_color=ffffff&amp;icon_color=00FF88&amp;hide_border=true" width="48%" alt="GitHub Stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=TousifTamboli&amp;layout=compact&amp;bg_color=00000000&amp;title_color=00FF88&amp;text_color=ffffff&amp;icon_color=00FF88&amp;hide_border=true" width="48%" alt="Top Languages" />
+  <img src="https://github-stats-extended.vercel.app/api?username=TousifTamboli&amp;show_icons=true&amp;bg_color=00000000&amp;title_color=00FF88&amp;text_color=ffffff&amp;icon_color=00FF88&amp;hide_border=true" width="48%" alt="GitHub Stats" />
+  <img src="https://github-stats-extended.vercel.app/api/top-langs/?username=TousifTamboli&amp;layout=compact&amp;bg_color=00000000&amp;title_color=00FF88&amp;text_color=ffffff&amp;icon_color=00FF88&amp;hide_border=true" width="48%" alt="Top Languages" />
 </p>
 
 <p align="center">
