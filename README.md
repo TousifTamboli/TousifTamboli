@@ -28,7 +28,7 @@
 
 <p align="center">
   <a href="https://github.com/TousifTamboli">
-    <img src="https://komarev.com/ghvc/?username=TousifTamboli&color=00ff88&style=flat-square&label=SYSTEM_VISITS" alt="System Visits Badge" />
+    <img src="https://komarev.com/ghpvc/?username=TousifTamboli&color=00ff88&style=flat-square&label=SYSTEM_VISITS&v=1" alt="System Visits Badge" />
   </a>
 </p>
 
