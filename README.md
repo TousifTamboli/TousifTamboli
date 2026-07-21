@@ -118,12 +118,25 @@
 </p>
 
 <p align="center">
-  <b>ESTABLISH CONNECTION:</b> 
-  <a href="https://tousif.online">tousif.online</a> &nbsp;|&nbsp; 
-  <a href="https://github.com/TousifTamboli">GitHub</a> &nbsp;|&nbsp; 
-  <a href="https://linkedin.com/in/tousiftamboli">LinkedIn</a> &nbsp;|&nbsp; 
-  <a href="https://x.com/tousiftamboli">Twitter/X</a> &nbsp;|&nbsp; 
-  <a href="mailto:tousiftamboli3@gmail.com">Email Terminal</a>
+  <a href="https://tousif.online">
+    <img src="https://img.shields.io/badge/tousif.online-121212?style=for-the-badge&logo=googlechrome&logoColor=00FF88" alt="Website Button" />
+  </a>
+  &nbsp;&nbsp;
+  <a href="https://github.com/TousifTamboli">
+    <img src="https://img.shields.io/badge/GitHub-121212?style=for-the-badge&logo=github&logoColor=00FF88" alt="GitHub Button" />
+  </a>
+  &nbsp;&nbsp;
+  <a href="https://linkedin.com/in/tousiftamboli">
+    <img src="https://img.shields.io/badge/LinkedIn-121212?style=for-the-badge&logo=linkedin&logoColor=00FF88" alt="LinkedIn Button" />
+  </a>
+  &nbsp;&nbsp;
+  <a href="https://x.com/tousiftamboli">
+    <img src="https://img.shields.io/badge/Twitter/X-121212?style=for-the-badge&logo=twitter&logoColor=00FF88" alt="Twitter/X Button" />
+  </a>
+  &nbsp;&nbsp;
+  <a href="mailto:tousiftamboli3@gmail.com">
+    <img src="https://img.shields.io/badge/Email_Terminal-121212?style=for-the-badge&logo=gmail&logoColor=00FF88" alt="Email Button" />
+  </a>
 </p>
 
 <br />
