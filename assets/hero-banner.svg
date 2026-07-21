@@ -108,10 +108,10 @@
     <rect x="0" y="22" width="180" height="2" fill="#00FF88" opacity="0.3" />
     
     <!-- Status parameters -->
-    <text x="0" y="45" class="monospace" fill="#888888" font-size="12">CORE.VERSION ..... <tspan fill="#00FF88">2.0.6</tspan></text>
-    <text x="0" y="65" class="monospace" fill="#888888" font-size="12">SHIELD_STATUS .... <tspan fill="#00FF88">ACTIVE</tspan></text>
-    <text x="0" y="85" class="monospace" fill="#888888" font-size="12">MEM_LOAD ......... <tspan fill="#00FF88">0.42 / 1.00</tspan></text>
-    <text x="0" y="105" class="monospace" fill="#888888" font-size="12">LATENCY .......... <tspan fill="#00FF88">14 ms</tspan></text>
+    <text x="0" y="45" class="monospace" fill="#888888" font-size="11">CORE.VERSION ... <tspan fill="#00FF88">2.0.6</tspan></text>
+    <text x="0" y="65" class="monospace" fill="#888888" font-size="11">SHIELD_STATUS .. <tspan fill="#00FF88">ACTIVE</tspan></text>
+    <text x="0" y="85" class="monospace" fill="#888888" font-size="11">MEM_LOAD ....... <tspan fill="#00FF88">0.42 / 1.00</tspan></text>
+    <text x="0" y="105" class="monospace" fill="#888888" font-size="11">LATENCY ........ <tspan fill="#00FF88">14 ms</tspan></text>
     
     <!-- Mini grid design -->
     <rect x="0" y="125" width="180" height="40" fill="none" stroke="#00FF88" stroke-width="0.5" opacity="0.3" />
@@ -120,21 +120,21 @@
   </g>
 
   <!-- Center Panel: The Main Cyber Title -->
-  <g transform="translate(270, 75)">
+  <g transform="translate(400, 75)">
     <!-- Glowing Tech Bracket Left -->
-    <path d="M -15 -10 L -30 -10 L -30 90 L -15 90" fill="none" stroke="#00FF88" stroke-width="1.5" opacity="0.7" />
-    <line x1="-30" y1="40" x2="-20" y2="40" stroke="#00FF88" stroke-width="2" />
+    <path d="M -110 -10 L -125 -10 L -125 90 L -110 90" fill="none" stroke="#00FF88" stroke-width="1.5" opacity="0.7" />
+    <line x1="-125" y1="40" x2="-115" y2="40" stroke="#00FF88" stroke-width="2" />
 
     <!-- Big Name -->
-    <text x="0" y="45" class="monospace glow-green glow-text" font-size="52" font-weight="800" letter-spacing="4">TOUSIF</text>
+    <text x="0" y="38" class="monospace glow-green glow-text" font-size="48" font-weight="800" letter-spacing="4" text-anchor="middle">TOUSIF</text>
     
     <!-- Role sub-bar -->
-    <text x="5" y="75" class="monospace" fill="#FFFFFF" font-size="14" font-weight="700" letter-spacing="3">FULL STACK ARCHITECT</text>
-    <text x="5" y="92" class="monospace" fill="#888888" font-size="10" letter-spacing="1">DECENTRALIZED &amp; INTELLIGENT SYSTEMS</text>
+    <text x="0" y="68" class="monospace" fill="#FFFFFF" font-size="13" font-weight="700" letter-spacing="3" text-anchor="middle">FULL STACK ARCHITECT</text>
+    <text x="0" y="85" class="monospace" fill="#888888" font-size="9" letter-spacing="1" text-anchor="middle">DECENTRALIZED &amp; INTELLIGENT SYSTEMS</text>
 
     <!-- Glowing Tech Bracket Right -->
-    <path d="M 235 -10 L 250 -10 L 250 90 L 235 90" fill="none" stroke="#00FF88" stroke-width="1.5" opacity="0.7" />
-    <line x1="250" y1="40" x2="240" y2="40" stroke="#00FF88" stroke-width="2" />
+    <path d="M 110 -10 L 125 -10 L 125 90 L 110 90" fill="none" stroke="#00FF88" stroke-width="1.5" opacity="0.7" />
+    <line x1="125" y1="40" x2="115" y2="40" stroke="#00FF88" stroke-width="2" />
   </g>
 
   <!-- Right Panel: Matrix Console Mockup -->
