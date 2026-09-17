@@ -2,7 +2,7 @@
 
 <img src="https://readme-typing-svg.demolab.com/?font=JetBrains+Mono&size=18&duration=3000&pause=1000&color=10B981&center=false&vCenter=true&width=620&height=40&lines=Agentic+AI+Systems+%26+Multi-Agent+Workflows;Production+RAG+Pipelines+%26+Vector+Search;High-Performance+Backend+Microservices;Developer-First+AI+Infrastructure" alt="Typing SVG" />
 
-**Software & AI Engineer** • Savitribai Phule Pune University (B.Tech CS & Data Science, CGPA 8.9/10)  
+**Software Engineer** • Savitribai Phule Pune University (B.Tech CS & Data Science, CGPA 8.9/10)  
 Passionate about building autonomous agentic workflows, production RAG pipelines, and high-throughput backend infrastructure.
 
 <p>
